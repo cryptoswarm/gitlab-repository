@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="utf-8">
+        <script type="text/javascript" src="../JS/jquery-3.3.1.min.js"></script> 
+        <script type="text/javascript" src="../JS/jqDOM.js"></script>
+        <title>Page de manipulation HTML</title>
+    </head>
+    <body>
+        <h2>Ajouter ou Supprimer un élément à la liste</h2>  
+        <form   method="post">
+        	Nouvel Item: <input type="text" name="nouveau"><br>
+        	Position ajout: <input type="text" name="pos"/><br>
+        	
+        	<input type="button" name="btAjoutDeb" value="Ajouter Debut" />
+        	<input type="button" name="btAjoutPos" value="Ajouter a la Postion" />
+        	<input type="button" name="btAjoutFin" value="Ajouter Fin" />
+        	<hr>
+        	Position supression: <input type="text" name="suppPos"/><br>
+        	<input type="button" name="btSuppDeb" value="Supprime Debut" />
+        	<input type="button" name="btSuppPos" value="Supprimer a la position" />
+        	<input type="button" name="btSuppFin" value="Supprimer Fin" />
+        </form>
+        <hr>
+        <h3>Liste des items</h3>
+        <ol id="liste"></ol>
+        
+    </body>
+</html>
+
